@@ -1,0 +1,219 @@
+:root {
+--guinda:  #5b262e;
+--blanco:  #f8f9fa;
+--gris:  #efefef;
+--verde:  #01cd74;
+}
+* {
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	background-color: var(--blanco);
+}
+/*Header*/
+header {
+	background-color: var(--verde);
+	padding: 10px;
+	font-size: 24px;
+	border-radius: 8px;
+}
+.nav_menu {
+	height: 80px;
+	display: flex;
+}
+/*Titulo*/
+	.nav_menu .titulo {
+	margin: auto;
+}
+	.tutulo {
+	font-size: 20px;
+}
+.titulo h1 {
+	color: black;
+	text-shadow: 6px 4px 4px yellowgreen;
+	text-align: justify;
+	width: auto;
+	margin-left: 120px;
+}
+/*Logo*/
+.logo img {
+	margin: 0;
+	padding: 0;
+	height: 80px;
+	width: 120px;
+}
+/*Menú de navegación*/
+.nav_menu ul, .nav_menu li {
+	display: flex;
+	float: right;
+	gap: 2rem;
+	align-items: center;
+	margin: 1rem;
+}
+.nav_menu li {
+    list-style: none;
+}
+.nav_menu a {
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: black;
+}
+.nav_menu a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+/*Tabla*/
+table {
+	text-align: center;
+	font-size: 12px;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border: solid 3px var(--verde);
+	border-radius: 8px;
+	border-collapse: collapse;
+}
+/*Celdas*/
+th {
+	background-color: lightgreen;
+	border-bottom: solid 1px darkgreen;
+	font-size: 16px;
+}
+ td {
+	border: solid 1px var(--verde);
+	padding: 20px;
+	font-size: 14px;
+}
+/*Celdas con imagen*/
+td img {
+	width: 200px;
+}
+table h3 {
+	text-align: center;
+}
+/*Información*/
+.info {
+	text-align: left;
+}
+/*Lista de la tabla*/
+.lista_tabla {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding: 0;
+	font-size: 14px;
+	text-align: center;
+	}
+.lista_tabla p {
+
+}
+.lista_tabla a {
+	text-decoration: none;
+	color: var(--verde);
+}
+.lista_tabla a:hover {
+	text-decoration: underline yellowgreen;
+	cursor: pointer;
+}
+/*Imagenes de los vinculos*/
+.vinculos {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+/*Titulo de la tabla*/ 
+caption {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+/*Formulario*/
+form {	
+	background-color: aliceblue;
+	width: 400px;
+	border: 1px solid skyblue;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+}
+.form label, .form p {
+	font-size: 18px;
+	display: block;
+
+}
+/*Titulos*/
+label {
+	margin-bottom: 4px;
+	margin-top: 10px;
+}
+/*Input*/
+input, select {
+	outline-color: aliceblue;
+	border-radius: 4px;
+    border: 1px solid lightgrey;
+    padding: 4px;
+}
+input:focus, select:focus {
+	outline-style: solid;
+	outline-color: #7dbed9;
+}
+/*Checkbox*/
+input[type=checkbox]:focus {
+    outline: none;
+}
+input[type=checkbox]:hover{
+	transition: 0.2s;
+	outline-width: 1px;
+	outline-style: solid;
+	outline-color: #7dbed9;
+}
+input[type=checkbox]:active {
+	transition: 0.2s;
+	outline-width: 2px;
+	outline-style: dotted;
+	outline-color: #7dbed9;
+}
+/*Botón Submit*/
+input[type=button] {
+	outline:none;
+}
+input[type=button] {
+	border-radius: 8px;
+    border: 1px solid skyblue;
+    width:70px; 
+    height:25px;
+}
+input[type=button]:hover {
+	background-color: #7DBED0;
+	border: 1px solid #7dbed9;
+	cursor: pointer;
+}
+input[type=button]:active {
+	background-color: #63aac4;
+	border: 1px solid #63aac4;
+}
+textarea {
+	border-radius: 4px;
+    border: 1px solid lightgrey;
+    outline-color: lightgrey;
+    padding: 4px;
+}
+textarea:hover {
+	outline-color: skyblue;
+}
+fieldset {
+  background-color: #eeeeee;
+  border: transparent;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+legend {
+  background-color: var(--verde);
+  color: white;
+  padding: 5px 10px;
+}
